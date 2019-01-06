@@ -27,3 +27,66 @@ I make a respawner by using two coroutine. In first try, I used `update()`, but 
     }
 
 It works well.
+
+
+# Make Start() as a Coroutine
+
+I shocked while watching lecture. Because I made two coroutine, It's same, but I made two dedicated method and call in the `Start()`. But they chagne the `Start()` to `IEnumerator Start()`. Wow, It can be... shot my head.
+
+# Event from Animation
+
+In Unity, Animation can call method with parameter!
+
+AnimationEvent() contain blow components.
+
+	(int/float/string/object)Parameter // call function with parameter. can choice int, float, string and object
+	time // time when it called
+	functionName // Name of function
+	
+Can make animation event on script. Refer to blow source.
+
+// Add an Animation Event to a GameObject that has an Animator
+using UnityEngine;
+using System.Collections;
+
+```
+public class Example : MonoBehaviour
+{
+    public void Start()
+    {
+        // existing components on the GameObject
+        AnimationClip clip;
+        Animator anim;
+
+        // new event created
+        AnimationEvent evt;
+        evt = new AnimationEvent();
+
+        // put some parameters on the AnimationEvent
+        //  - call the function called PrintEvent()
+        //  - the animation on this object lasts 2 seconds
+        //    and the new animation created here is
+        //    set up to happen 1.3s into the animation
+        evt.intParameter = 12345;
+        evt.time = 1.3f;
+        evt.functionName = "PrintEvent";
+
+        // get the animation clip and add the AnimationEvent
+        anim = GetComponent<Animator>();
+        clip = anim.runtimeAnimatorController.animationClips[0];
+        clip.AddEvent(evt);
+    }
+
+    // the function to be called as an event
+    public void PrintEvent(int i)
+    {
+        print("PrintEvent: " + i + " called at: " + Time.time);
+    }
+}
+```
+
+# Don't forget make a sprite to anim
+
+1. Import a image to unity.
+2. Change sprite option to multi from single.
+3. slide and make a anim
