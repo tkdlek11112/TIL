@@ -11,3 +11,16 @@ createsuperuser at console window, I can make admin account.
 
 ## Finish install and I wonder how it works.
 
+Should I use restfulAPI?.. is not.  RestfulAPI is a design for easy developing and maintaining. But some system are not suitable. Let me do restfulAPI for my Login API Server.
+
+## Create New Project
+
+1. Create Virtual environment.
+    virtualenv env
+    source env/bin/activate
+
+2. Install Django and utility
+    pip install django
+    pip install djangorestframework
+    pip install pygments -- it's a highlight tool
+
