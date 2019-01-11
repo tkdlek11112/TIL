@@ -24,3 +24,8 @@ Should I use restfulAPI?.. is not.  RestfulAPI is a design for easy developing a
     pip install djangorestframework
     pip install pygments -- it's a highlight tool
 
+3. install snippets
+
+__What is the snippets?!__
+It seems ... a program which is like code viewer, imo.
+I can guess because it has some variance
