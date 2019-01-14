@@ -22,3 +22,21 @@ In this game, we have to create (build) some thing like a tower or turret, becau
 
 > ! We have to change mouse position to world space.
 
+## Make a button
+Make a button which help player select tower they want to build.
+
+```C# public class DefenderButton : MonoBehaviour
+{
+    private void OnMouseDown()
+    {
+        var ButtonList = FindObjectsOfType<DefenderButton>();
+        foreach( DefenderButton button in ButtonList)
+        {
+            button.GetComponent<SpriteRenderer>().color = new Color32(36, 36, 36, 255);
+        }
+        GetComponent<SpriteRenderer>().color = Color.white;
+    }
+}
+```
+
+Wow. I can get all of game object which they use same scirpts(or component).
