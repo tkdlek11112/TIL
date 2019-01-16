@@ -49,3 +49,8 @@ I add this source. I guess, modles.Model is the lib which help us make a databas
 
 ## __serializer__
 I think, it's very important thing in rest-framework. Form in Django is a model what kind of data it has. In rest-framework we can use serializer instance of from. There are 2-way form, `form` and `modelform`. `Modelform` is more simple and easy to use. 
+
+## __model.serializer__
+If we use model.serializer, It's not assential that makes create and update classes. After I change serializer to model.serializer and add `Meta` class, I remove both create and update class, and run. It works.
+
+
