@@ -55,8 +55,8 @@ When I click to build tower, we hope that it build what I selected. To do it, it
             button.GetComponent<SpriteRenderer>().color = new Color32(36, 36, 36, 255);
         }
         GetComponent<SpriteRenderer>().color = Color.white;
-        FindObjectOfType<TurretArea>().SetDefender(defender);
+        FindObjectOfType<TurretArea>().SetDefender(defender); // <-- this code! 
     }
 }
 ```
-
+In `TurretArea`, `SetDefender(GameObject inputdefender)` is the key method. It sets the tower which we selected.
