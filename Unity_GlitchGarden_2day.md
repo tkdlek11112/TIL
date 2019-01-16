@@ -40,3 +40,23 @@ Make a button which help player select tower they want to build.
 ```
 
 Wow. I can get all of game object which they use same scirpts(or component).
+
+
+## Build a tower which I select
+When I click to build tower, we hope that it build what I selected. To do it, it has to have what tower we selected. I just add some code a button scirpts.
+
+```C# public class DefenderButton : MonoBehaviour
+{
+    private void OnMouseDown()
+    {
+        var ButtonList = FindObjectsOfType<DefenderButton>();
+        foreach( DefenderButton button in ButtonList)
+        {
+            button.GetComponent<SpriteRenderer>().color = new Color32(36, 36, 36, 255);
+        }
+        GetComponent<SpriteRenderer>().color = Color.white;
+        FindObjectOfType<TurretArea>().SetDefender(defender);
+    }
+}
+```
+
