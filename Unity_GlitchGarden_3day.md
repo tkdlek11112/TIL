@@ -57,3 +57,6 @@ IEnumerator RespawnCrocodile()
 ## Find the place where call a method
 We can find by using `cmd + f`. But, if it called from animation? It can't appear just `cmd + f`. This case, we solve to add some options. `cmd + shift + f` on mac, we can change find location. change it to directory and select your project path. Then, it can find from all file, surly the method appear even it contain *.anim file.
 
+## Finish Glitch Garden
+I finished making glitch garden Yeah. But.. there is a different version of Glitch Garden lecture XD..
+Previous version has 43 lecture but this has 61. wow. Let skim through!
