@@ -132,6 +132,4 @@ class SnippetDetail(generics.RetrieveUpdateDestroyAPIView):
 
 Yop. Very simple!!
 
-ListCreateAPIView = `GET(All)`, `POST`
-
-RetrieveUpdateDestroyAPIView = `GET(retrieve)`, `PUT`, `DELETE`
+ListCreateAPIView = `GET(All)`, `POST`. RetrieveUpdateDestroyAPIView = `GET(retrieve)`, `PUT`, `DELETE`
