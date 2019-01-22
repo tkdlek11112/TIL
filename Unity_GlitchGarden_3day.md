@@ -60,3 +60,19 @@ We can find by using `cmd + f`. But, if it called from animation? It can't appea
 ## Finish Glitch Garden
 I finished making glitch garden Yeah. But.. there is a different version of Glitch Garden lecture XD..
 Previous version has 43 lecture but this has 61. wow. Let skim through!
+
+## They add some new lecture on Glitch Garden. 
+I Change my animation logic. When I need to change animation of sprite, I load an animator in the sprite, check a status where animation it do, then change to other animation. 
+But after I changed, I just use `SetBool` method on animator.
+
+like this  
+```C#
+	// Update is called once per frame
+	void Update () {
+        transform.Translate(Vector2.left * walkSpeed * Time.deltaTime);
+        if (!targetDefender)
+            animator.SetBool("IsAttacking", false);
+
+    }
+````
+It's more simple than before.
