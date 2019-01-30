@@ -11,4 +11,8 @@ DEV Log - RaidLike
 
 ## 2Day
 1. Tile Spirte need to set Filter Mode : Point(no filter). If use filter, outline of tile will crack.
-2. 
+2. Make AWS Server to get LPC-Sprite [link](http://ec2-13-125-227-66.ap-northeast-2.compute.amazonaws.com/)
+
+## 3Day
+1. Create Custom Editor to create animations from sprite.
+2. I make a naming rule about animation. ex) body_dark_spell_up, weapon_dagger_slash_up
