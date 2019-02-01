@@ -16,3 +16,8 @@ DEV Log - RaidLike
 ## 3Day
 1. Create Custom Editor to create animations from sprite.
 2. I make a naming rule about animation. ex) body_dark_spell_up, weapon_dagger_slash_up
+
+## 4Day
+1. I found the way to make `gear system`. The animation will be changed what part we equip.
+2. reference is follow utube. [link](https://youtu.be/wyyuYX25tBU)
+
