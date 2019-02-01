@@ -24,3 +24,6 @@ DEV Log - RaidLike
 4. To solve this problem, there are some solution in google. Someone recommand use `StartPlayBack` method on animator. But, I didn't work in my case. 
 5. But `Play` method works. To sync my animations, I have to start that at once from 0 frame. Because unsync problem comes from animations start random frame for each. So, if all animations start 0 frame, it will be sync!!.
 6. animator.play(0,-1,0) first param is stateName. maybe 0 means current state. Second param is Layer number. If put -1, it start from first layer. Last param is a time offset what you want to start.  
+7. Create a method that character move to click position from current position. `Vector3.MoveTowards`
+8. I need to add find the correct way to target position. 
+
