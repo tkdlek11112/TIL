@@ -20,4 +20,7 @@ DEV Log - RaidLike
 ## 4Day
 1. I found the way to make `gear system`. The animation will be changed what part we equip.
 2. reference is follow utube. [link](https://youtu.be/wyyuYX25tBU)
-
+3. I faced an issue that is my animations unsync each other. This means... My body and Weapon didn't start at same time. Actually, it start randomly for each. It looks so bad.
+4. To solve this problem, there are some solution in google. Someone recommand use `StartPlayBack` method on animator. But, I didn't work in my case. 
+5. But `Play` method works. To sync my animations, I have to start that at once from 0 frame. Because unsync problem comes from animations start random frame for each. So, if all animations start 0 frame, it will be sync!!.
+6. animator.play(0,-1,0) first param is stateName. maybe 0 means current state. Second param is Layer number. If put -1, it start from first layer. Last param is a time offset what you want to start.  
