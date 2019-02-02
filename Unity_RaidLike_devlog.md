@@ -27,3 +27,8 @@ DEV Log - RaidLike
 7. Create a method that character move to click position from current position. `Vector3.MoveTowards`
 8. I need to add find the correct way to target position. 
 
+## 5Day
+1. I do `Nav Mesh` is a pathfinding library in unity on my project. But it only allow X-Z plane. My project is top-down tilemap project with X-Y plane.
+2. I try change X-Y to X-Z. But if it changes, All sprites and animations rotate x 90 degree.
+3. Try searching other things. A* pathfinding looks good. But it will take long time to learn and use.
+4. `Nav Mesh Surface` is a library like `Nav Mesh` but it can do on X-Y plane. [Link](https://github.com/Unity-Technologies/NavMeshComponents) and [Link2](http://www.spacebumfuzzle.com/runtime-generation-of-unity-navmesh-on-the-xy-plane-with-2d-physics/) 
