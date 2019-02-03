@@ -32,3 +32,11 @@ DEV Log - RaidLike
 2. I try change X-Y to X-Z. But if it changes, All sprites and animations rotate x 90 degree.
 3. Try searching other things. A* pathfinding looks good. But it will take long time to learn and use.
 4. `Nav Mesh Surface` is a library like `Nav Mesh` but it can do on X-Y plane. [Link](https://github.com/Unity-Technologies/NavMeshComponents) and [Link2](http://www.spacebumfuzzle.com/runtime-generation-of-unity-navmesh-on-the-xy-plane-with-2d-physics/) 
+
+## 6Day
+1. Finally I finished doing navmesh!!
+2. I make a empty GameObject and make a child with plane object. Than Rotate the empty object we can use navmesh baking!!
+3. But there is another problem that my sprite rotate. I add a solution code in update() `transform.rotation = Quaternion.identity;`
+4. I don't know this code where good or not for performance. I will find some example.
+
+
