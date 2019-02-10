@@ -39,4 +39,8 @@ DEV Log - RaidLike
 3. But there is another problem that my sprite rotate. I add a solution code in update() `transform.rotation = Quaternion.identity;`
 4. I don't know this code where good or not for performance. I will find some example.
 
+# To-do list 
+1. Make prototype game has functions move and attack.
 
+# Issue
+1. If characters move to one point, they start to dance. XD I have to make a exception when they collide each other.
