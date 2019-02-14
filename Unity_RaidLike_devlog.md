@@ -49,7 +49,8 @@ spriteRenderer.sortingOrder = (int)((transform.position.y + sortingOrderOffset) 
 2. First, I just set `sortingOrder = (int)transform.position.y`. But there is a big problem that it just sort wrong order.
 We want to bring a sprite to front which placed bottom. But this source works opposite.
 
-3.
+3. The reason I add the offset value -6 is my screen has a y-boundery -5(bottom) ~ 5(top). So when add the offset, it change -11 ~ -1. then, multiple -100 ----> 1100 ~ 100. 
+4. Now, bottom sprite sortingOrer is more higher then top sprite's.
 
 # To-do list 
 2019.2.28 Make prototype game has functions move and attack.
