@@ -41,6 +41,15 @@ DEV Log - RaidLike
 
 ## 7Day
 1. Auto sort order.
+```C#
+int sortingOrderOffset = -6;
+protected SpriteRenderer spriteRenderer;
+spriteRenderer.sortingOrder = (int)((transform.position.y + sortingOrderOffset) * -100);
+```
+2. First, I just set `sortingOrder = (int)transform.position.y`. But there is a big problem that it just sort wrong order.
+We want to bring a sprite to front which placed bottom. But this source works opposite.
+
+3.
 
 # To-do list 
 2019.2.28 Make prototype game has functions move and attack.
