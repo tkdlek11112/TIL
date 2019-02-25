@@ -59,9 +59,12 @@ We want to bring a sprite to front which placed bottom. But this source works op
 4. Draw move line character move.
 
 
+
+
 # To-do list 
 2019.2.28 Make prototype game has functions move and attack.
 
 
 # Issue
+0. It's stupid!!!!!! Random frame start animation issue was solved very simply. Just set all animations frame have same value. lol
 1. If characters move to one point, they start to dance. XD I have to make a exception when they collide each other.
