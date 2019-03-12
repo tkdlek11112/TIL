@@ -1,10 +1,13 @@
-To-Do
--v Create CardGenerator object to init cards.
--v Create Basic Player and Minion cards.
--v Make move method to move card.
--v Make attacDagame and healthPoint.
-- Add Logic that cards follow plater card.
-- Add to CardGenerator generate card at empty space.
+To-Do.  
+- Create CardGenerator object to init cards.  
+- Create Basic Player and Minion cards.  
+- Make move method to move card.  
+- Make attacDagame and healthPoint.  
+- Add Logic that cards follow player card.  
+  - Add to CardGenerator generate card at empty space.  
+
+## 2019.03.12
+1. Make function that let all cards move one direction.
 
 
 ## 2019.03.11
