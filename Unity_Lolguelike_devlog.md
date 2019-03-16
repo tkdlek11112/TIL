@@ -4,7 +4,12 @@ To-Do.
 - Make move method to move card.  
 - Make attacDagame and healthPoint.  
 - Add Logic that cards follow player card.  
-  - Add to CardGenerator generate card at empty space.  
+- Add to CardGenerator generate card at empty space.  
+- I need a 'turn' how many time player moved. One move add one turn (+1).
+
+
+## 2019.03.14
+1. Make CardGenerate function.
 
 ## 2019.03.12
 1. Make function that let all cards move one direction.
