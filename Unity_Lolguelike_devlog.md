@@ -7,6 +7,8 @@ To-Do.
 - Add to CardGenerator generate card at empty space.  
 - I need a 'turn' how many time player moved. One move add one turn (+1).
 
+## 2019.03.15
+1. Make TextMeshPro.
 
 ## 2019.03.14
 1. Make CardGenerate function.
