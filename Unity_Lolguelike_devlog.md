@@ -6,6 +6,14 @@ To-Do.
 - Add Logic that cards follow player card.  
 - Add to CardGenerator generate card at empty space.  
 - I need a 'turn' how many time player moved. One move add one turn (+1).
+  - devide up what to do according to Card.state.
+  - Make a EmptyCard Prefab to make generate function.
+  
+ 
+## 2019.03.26
+1. I change the cards move system, only one card move per one move turn. I make a List<Card> as queue.  
+2. through CardGenerator.AddCard(a Card), I'm able to add card to queue.
+3. I define the card state { MOVE, GENERATE, NONE }, In CardGenerate.Update(), it can check Card.state and know what this card to do.
 
 ## 2019.03.15
 1. Make TextMeshPro.
