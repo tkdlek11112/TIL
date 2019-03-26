@@ -9,6 +9,7 @@ To-Do.
 - devide up what to do according to Card.state.
 - Make a EmptyCard Prefab to make generate function.
   - Minion Die
+  - Minion Attack
   - Earn EXP, Gold
   - skill
   - more enemy
