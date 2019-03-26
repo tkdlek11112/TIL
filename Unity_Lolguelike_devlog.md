@@ -6,8 +6,8 @@ To-Do.
 - Add Logic that cards follow player card.  
 - Add to CardGenerator generate card at empty space.  
 - I need a 'turn' how many time player moved. One move add one turn (+1).
-  - devide up what to do according to Card.state.
-  - Make a EmptyCard Prefab to make generate function.
+- devide up what to do according to Card.state.
+- Make a EmptyCard Prefab to make generate function.
   
  
 ## 2019.03.26
