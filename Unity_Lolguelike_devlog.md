@@ -8,8 +8,13 @@ To-Do.
 - I need a 'turn' how many time player moved. One move add one turn (+1).
 - devide up what to do according to Card.state.
 - Make a EmptyCard Prefab to make generate function.
+  - Minion Die
+  - Earn EXP, Gold
+  - skill
+  - more enemy
+  - items
   
- 
+
 ## 2019.03.26
 1. I change the cards move system, only one card move per one move turn. I make a List<Card> as queue.  
 2. through CardGenerator.AddCard(a Card), I'm able to add card to queue.
