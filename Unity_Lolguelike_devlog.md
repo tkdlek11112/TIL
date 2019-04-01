@@ -16,6 +16,11 @@ To-Do.
   - items
   
 
+## 2019.04.01
+1. If minion die, create item card while destroy minion card. 
+2. Add Common Animator has CreateSpin Animation and DestroySpin Animation.
+3. Minion Die --animation--> Switch SpaceCard -> Player Move
+
 ## 2019.03.26
 1. I change the cards move system, only one card move per one move turn. I make a List<Card> as queue.  
 2. through CardGenerator.AddCard(a Card), I'm able to add card to queue.
