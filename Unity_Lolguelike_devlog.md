@@ -15,6 +15,8 @@ To-Do.
   - more enemy
   - items
   
+## 2019.04.07
+1. Change CardObject. Cube -> Quad x 6. Because put different color each side.
 
 ## 2019.04.01
 1. If minion die, create item card while destroy minion card. 
