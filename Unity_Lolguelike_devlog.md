@@ -15,6 +15,9 @@ To-Do.
   - more enemy
   - items
   
+## 2019.04.14
+1. Change CardCube -> CardQuad (Player, Minion)
+
 ## 2019.04.07
 1. Change CardObject. Cube -> Quad x 6. Because put different color each side.
 
