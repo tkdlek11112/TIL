@@ -8,6 +8,8 @@ To-Do.
 - I need a 'turn' how many time player moved. One move add one turn (+1).
 - devide up what to do according to Card.state.
 - Make a EmptyCard Prefab to make generate function.
+  - Move Animation
+  - Create, Disappear Animation
   - Minion Die
   - Minion Attack
   - Earn EXP, Gold
@@ -17,6 +19,7 @@ To-Do.
   
 ## 2019.04.14
 1. Change CardCube -> CardQuad (Player, Minion)
+2. Make MoveAnimation.
 
 ## 2019.04.07
 1. Change CardObject. Cube -> Quad x 6. Because put different color each side.
