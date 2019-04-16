@@ -17,6 +17,9 @@ To-Do.
   - more enemy
   - items
   
+## 2019.04.16
+1. Make MoveRightCardAnim and MoveRightEndCardAnim. It can be controlled animator param [Right, Left, Up, Down] 
+
 ## 2019.04.14
 1. Change CardCube -> CardQuad (Player, Minion)
 2. Make MoveAnimation.
