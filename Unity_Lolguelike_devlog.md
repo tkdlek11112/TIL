@@ -1,4 +1,4 @@
-To-Do.  
+Complete. 
 - Create CardGenerator object to init cards.  
 - Create Basic Player and Minion cards.  
 - Make move method to move card.  
@@ -8,14 +8,19 @@ To-Do.
 - I need a 'turn' how many time player moved. One move add one turn (+1).
 - devide up what to do according to Card.state.
 - Make a EmptyCard Prefab to make generate function.
-  - Move Animation
-  - Create, Disappear Animation
-  - Minion Die
+- Move Animation
+- Create, Disappear Animation
+- Minion Die
+To-Do. 
   - Minion Attack
   - Earn EXP, Gold
   - skill
   - more enemy
   - items
+
+## 2019.04.28
+1. Make LOOTCARD, WITHECARD, EMPTYCARD
+2. NOTE : I NEED TO MAKE CARD LIFE CYCLE
 
 ## 2019.04.25
 1. Make All animations.
