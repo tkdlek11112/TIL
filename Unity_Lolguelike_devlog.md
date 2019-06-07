@@ -19,6 +19,9 @@ To-Do.
   - more enemy
   - items
 
+## 2019.06.07
+1. Make AP(AtackPoint) on Player
+
 ## 2019.04.28
 1. Make LOOTCARD, WITHECARD, EMPTYCARD
 2. NOTE : I NEED TO MAKE CARD LIFE CYCLE
