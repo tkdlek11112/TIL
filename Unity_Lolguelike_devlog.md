@@ -19,6 +19,12 @@ To-Do.
   - more enemy
   - items
 
+## 2019.06.17
+1. Make Skill UI and adjust All UI Canvas.
+
+## 2019.06.14
+1. Set Random HealthPoint.
+
 ## 2019.06.07
 1. Make AP(AtackPoint) on Player
 
