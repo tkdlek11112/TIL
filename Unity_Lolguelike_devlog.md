@@ -19,6 +19,10 @@ To-Do.
   - more enemy
   - items
 
+## 2019.06.18
+1. Skill 64px, Item 40px
+2. Draw outline 4px
+
 ## 2019.06.17
 1. Make Skill UI and adjust All UI Canvas.
 
