@@ -19,6 +19,10 @@ To-Do.
   - more enemy
   - items
 
+## 2019.06.20
+1. Itembar, Skillbar
+2. Need to define skillset for champs
+
 ## 2019.06.18
 1. Skill 64px, Item 40px
 2. Draw outline 4px
