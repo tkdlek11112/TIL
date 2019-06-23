@@ -19,6 +19,10 @@ To-Do.
   - more enemy
   - items
 
+## 2019.06.23
+1. RIVEN, MINION IMAGE
+2. Change Card Color to More dark. it's better imo.
+
 ## 2019.06.20
 1. Itembar, Skillbar
 2. Need to define skillset for champs
