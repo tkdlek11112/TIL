@@ -19,6 +19,10 @@ To-Do.
   - more enemy
   - items
 
+## 2019.06.26
+1. ADD BushCard
+2. In Bush, Champ get a few HealthPoint and something special bonus. (ex. Champ can attack minion with no counter)
+
 ## 2019.06.23
 1. RIVEN, MINION IMAGE
 2. Change Card Color to More dark. it's better imo.
