@@ -24,7 +24,7 @@ To-Do.
 2. Make a bush effect.
 
 ![image](https://user-images.githubusercontent.com/14961794/60269834-292cf880-992a-11e9-8b23-ae3a2b880d63.png)
-
+![image](https://user-images.githubusercontent.com/14961794/60273973-33eb8b80-9932-11e9-8819-86652d8ccc6a.png)
 
 ## 2019.06.26
 1. ADD BushCard
