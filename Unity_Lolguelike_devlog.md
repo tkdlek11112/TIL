@@ -18,6 +18,13 @@ To-Do.
   - skill
   - more enemy
   - items
+  
+## 2019.06.27
+1. `InitGame()` in CardGanerator.cs make random card {MINION, GOLD, WHITE BUSH}
+2. Make a bush effect.
+
+![image](https://user-images.githubusercontent.com/14961794/60269834-292cf880-992a-11e9-8b23-ae3a2b880d63.png)
+
 
 ## 2019.06.26
 1. ADD BushCard
