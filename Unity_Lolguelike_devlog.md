@@ -22,6 +22,7 @@ To-Do.
 ## 2019.06.27
 1. `InitGame()` in CardGanerator.cs make random card {MINION, GOLD, WHITE BUSH}
 2. Make a bush effect.
+# 3. Render Bush img on Player or set Alpha Value at Player. Which one is better? -> Bush on the Player!
 
 ![image](https://user-images.githubusercontent.com/14961794/60269834-292cf880-992a-11e9-8b23-ae3a2b880d63.png)
 ![image](https://user-images.githubusercontent.com/14961794/60273973-33eb8b80-9932-11e9-8819-86652d8ccc6a.png)
