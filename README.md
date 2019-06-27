@@ -1,6 +1,6 @@
 # TIL
 Today, I Learned.
-I'm tring to write english for study!
+I'm trying to write english for study!
 
 # These day I'm into...
 UNITY, Python, AWS, Django
