@@ -22,7 +22,11 @@ To-Do.
   - skill
   - more enemy
   - items
-  
+
+## 2019.08.11
+1. Finish initSkill. 
+2. We need many initiator before start game :(
+
 ## 2019.06.27
 1. `InitGame()` in CardGanerator.cs make random card {MINION, GOLD, WHITE BUSH}
 2. Make a bush effect.
