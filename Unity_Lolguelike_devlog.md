@@ -23,6 +23,11 @@ To-Do.
   - more enemy
   - items
 
+## 2019.08.18
+To-Do
+1. Finish Skill logic (cooltime, queue etc..)
+
+
 ## 2019.08.11
 1. Finish initSkill. 
 2. We need many initiator before start game :(
