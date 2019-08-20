@@ -23,6 +23,10 @@ To-Do.
   - more enemy
   - items
 
+
+## 2019.08.20
+1. Complete Skill CoolTime down.
+
 ## 2019.08.18
 To-Do
 1. Finish Skill logic (cooltime, queue etc..)
