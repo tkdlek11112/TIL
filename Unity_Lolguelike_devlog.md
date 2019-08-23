@@ -18,18 +18,23 @@ Complete.
 
 
 To-Do. 
+  - Finish Skill logic (cooltime, queue etc..)
   - Earn EXP
   - skill
   - more enemy
   - items
 
+## 2019.08.23
+To-Do
+1. playerCard init() method. set Player's champ and sprite image.
+2. make queues to check skill before move or attack.
 
 ## 2019.08.20
 1. Complete Skill CoolTime down.
 
 ## 2019.08.18
 To-Do
-1. Finish Skill logic (cooltime, queue etc..)
+1. Finish Skill logic (cooltime, queue etc..) - Delay
 
 
 ## 2019.08.11
