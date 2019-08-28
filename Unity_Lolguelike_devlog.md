@@ -24,9 +24,16 @@ To-Do.
   - more enemy
   - items
 
+## 2019.08.28
+Delayed To-Do
+2. make queues to check skill before move or attack. (2019.08.23)
+
+To-Do
+~~1. AttackNormalAnimation ~~
+
 ## 2019.08.23
 To-Do
-1. playerCard init() method. set Player's champ and sprite image.
+~~1. playerCard init() method. set Player's champ and sprite image.~~
 2. make queues to check skill before move or attack.
 
 ## 2019.08.20
