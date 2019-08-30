@@ -24,16 +24,20 @@ To-Do.
   - more enemy
   - items
 
+## 2019.08.30 Fri
+Today, I start coding from at 2pm. I need to finish skill system. I'm going to make some animations to attach Player Animator. It will act when PlayerCard attack enemy or use skill. I have an idea to make it. My plan is make two kind of category about animations. one is common animmation, the other one is special animation. Common animation is used in any situation or case. For example, there is a animation that player jump a little, it can be used "jump" and some attackskill, even it can be used in a situation that hit from an enemy. 
+
+
 ## 2019.08.28
 Delayed To-Do
 2. make queues to check skill before move or attack. (2019.08.23)
 
 To-Do
-~~1. AttackNormalAnimation ~~
+1. ~~AttackNormalAnimation~~
 
 ## 2019.08.23
 To-Do
-~~1. playerCard init() method. set Player's champ and sprite image.~~
+1. ~~playerCard init() method. set Player's champ and sprite image.~~
 2. make queues to check skill before move or attack.
 
 ## 2019.08.20
