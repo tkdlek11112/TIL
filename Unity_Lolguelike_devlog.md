@@ -24,6 +24,10 @@ To-Do.
   - more enemy
   - items
 
+## 2019.09.06 Fri
+with more and more sources, I need some document that import whole thing about game. It define skills, champs, systems, enemies and so on. like planning document. If not, I forgot everything what should I do.
+Today, I will fix the way display skill cooltime. At first, when skill is on cooltime, skill image is to be blur. It notice player it is not ready. And next, I show up skill use count on skill icon image. Riven can use her broken wings 3 times, so we need to show how many time we use and remain.
+
 ## 2019.08.30 Fri
 Today, I start coding from at 2pm. I need to finish skill system. I'm going to make some animations to attach Player Animator. It will act when PlayerCard attack enemy or use skill. I have an idea to make it. My plan is make two kind of category about animations. one is common animmation, the other one is special animation. Common animation is used in any situation or case. For example, there is a animation that player jump a little, it can be used "jump" and some attackskill, even it can be used in a situation that hit from an enemy. 
 
