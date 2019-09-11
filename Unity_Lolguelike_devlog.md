@@ -24,6 +24,10 @@ To-Do.
   - more enemy
   - items
 
+## 2019.09.11 Wed
+I just started to add some effects in my game. My game is based on pixel art(dot img), effects also are made by pixel, Imo.
+I try to make particle system for normal hit effect. It's my first time make an effect. I learn make it from youtube, actualy it's not what I wanna, but I can change it for me.
+
 ## 2019.09.06 Fri
 with more and more sources, I need some document that import whole thing about game. It define skills, champs, systems, enemies and so on. like planning document. If not, I forgot everything what should I do.
 Today, I will fix the way display skill cooltime. At first, when skill is on cooltime, skill image is to be blur. It notice player it is not ready. And next, I show up skill use count on skill icon image. Riven can use her broken wings 3 times, so we need to show how many time we use and remain.
