@@ -9,4 +9,8 @@ Django 환경을 AWS와 Docker, Jenkins로 만들어보자.
 6. 가상환경 만들기
 7. sqlite3가 또 먹통되서 postgre 설치하기로함
 8. `docker pull postgres`로 이미지 다운로드.
-9. docker -d -p 5432:5432 -e POSTGRES_PASSWORD=pwd postgres
+9. docker run for postres with options.
+```
+docker run --rm --name pgsql -e POSTGRES_DB=dbname -e POSTGRES_USER=user -e POSTGRES_PASSWARD=pwd postgres
+```
+docker-compose에서 name 사용.
