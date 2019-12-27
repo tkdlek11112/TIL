@@ -14,3 +14,10 @@ Django 환경을 AWS와 Docker, Jenkins로 만들어보자.
 docker run --rm --name pgsql -e POSTGRES_DB=dbname -e POSTGRES_USER=user -e POSTGRES_PASSWARD=pwd postgres
 ```
 docker-compose에서 name 사용.
+
+10. DB 설정했으니 이제 다시 장고 실행 가능.
+
+![스크린샷 2019-12-27 오후 4 39 10](https://user-images.githubusercontent.com/14961794/71507397-b942ff00-28c7-11ea-87fc-cab3cbff4f29.png)
+
+![스크린샷 2019-12-27 오후 4 42 30](https://user-images.githubusercontent.com/14961794/71507447-e55e8000-28c7-11ea-8842-4f3d2501220e.png)
+
