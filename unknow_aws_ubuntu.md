@@ -7,3 +7,7 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.25.0-rc2/dock
 5. git clone
 6. django, mysql install 
 apt-get install libmysqlclient-dev -y
+sudo apt-get install gcc
+
+7. make customuser model
+https://dev-yakuza.github.io/ko/django/custom-user-model/
