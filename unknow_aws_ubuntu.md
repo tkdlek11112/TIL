@@ -11,3 +11,8 @@ sudo apt-get install gcc
 
 7. make customuser model
 https://dev-yakuza.github.io/ko/django/custom-user-model/
+
+8. oauth set
+
+9. DB router
+https://chohyeonkeun.github.io/2019/06/07/190607-django-multi-database/
