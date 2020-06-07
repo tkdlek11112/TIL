@@ -27,3 +27,5 @@ use "conda install -c conda-forge uwsgi"
 12. auto start uwsgi
 https://crazia.tistory.com/entry/Python-uwsgi-로-배포하고-우분투에서-systemd-로-관리하는-방법
 
+13. dockernize(nginx, uwsgi, django)
+docker 
