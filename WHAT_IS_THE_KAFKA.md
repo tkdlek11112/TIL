@@ -1,6 +1,9 @@
 I am heard a lot of times about kafka in my company. 
 But I don't know what it is.
 
+
+The official homepage introduces it like this
+
 ```
 APACHE KAFKA
 More than 80% of all Fortune 100 companies trust, and use Kafka.
